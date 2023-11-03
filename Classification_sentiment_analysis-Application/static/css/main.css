@@ -1,0 +1,125 @@
+Reset some default styling
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  color: aqua;
+}
+
+/* Apply a modern font */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Set a background color and adjust text color */
+body {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.split {
+  height: 100vh;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+  
+}
+
+.left {
+  left: 0;
+  background-color: #fbff1c;
+  background: linear-gradient(rgba(60, 65, 51, 0), rgba(60, 65, 51, 0)), url("/static/img/main\ back.png") fixed center center;  
+  background-size: cover;
+}
+
+.right {
+  right: 0;
+  background-color: #20ff1800;
+  background: linear-gradient(rgba(60, 65, 51, 0), rgba(60, 65, 51, 0)), url("/static/img/main\ back.png") fixed center center;  
+  background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 10px;
+  
+  
+}
+
+.centered img {
+  max-width: 150%;
+  padding-right: 100px;
+}
+
+/* Styling for the container */
+.container {
+  background-color: #c8dde470;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+/* Styling for labels */
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Styling for the textarea */
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 3px solid rgb(0, 238, 255);;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  background-color: rgb(54, 72, 179);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(53, 212, 204);
+}
+
+.comments {
+  text-decoration: underline;
+  text-underline-position: under;
+  cursor: pointer; 
+  
+  
+}
+.commented-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.split.coment-bottom{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 3px solid rgb(54, 72, 179);;
+  border-radius: 5px;
+  resize: vertical;
+}
